@@ -14,7 +14,6 @@ public abstract  class AbstractMethodInterceptor implements MethodInterceptor{
 * @author Hezf
 */ 
 	public Object intercept(Object obj, Method method, Object[] args, MethodProxy proxy) throws Throwable {
-		
 		//执行源对象的method方法
 		Object returnValue;
 		try {
